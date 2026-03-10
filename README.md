@@ -22,3 +22,14 @@ El proyecto se desarrollará siguiendo un flujo de trabajo de Ciencia de Datos d
 * **Análisis de Datos**: `pandas`, `numpy`
 * **Visualización**: `matplotlib`, `seaborn`
 * **Entorno**: Jupyter Notebooks para experimentación.
+
+## ⚙️ Configuración
+
+1. Copia el archivo de ejemplo: `cp .env.example .env`
+2. Edita el archivo `.env` y define tu zona horaria en la variable `USER_TIMEZONE`.
+   * **¿Cuál es mi zona horaria?**: Debes usar el formato *IANA*. Puedes encontrar el nombre de tu ciudad en esta [Lista de Wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) (columna *TZ database name*).
+   * **Ejemplos comunes**: 
+     * España Peninsular: `Europe/Madrid`
+     * Canarias: `Atlantic/Canary`
+     * México DF: `America/Mexico_City`
+     * Argentina: `America/Argentina/Buenos_Aires`
