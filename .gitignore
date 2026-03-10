@@ -1,0 +1,26 @@
+# === Python Environment ===
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Data (Privacy & GDPR) ===
+# Ignoramos los datos crudos y procesados para proteger la privacidad
+data/raw/*
+data/processed/*
+# Permitimos que las carpetas existan en el repo pero vacías
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === Secrets & Config ===
+.env
+
+# === IDE & OS ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
